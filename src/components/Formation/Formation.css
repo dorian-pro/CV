@@ -1,0 +1,68 @@
+.formation{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.formation .container_formation{
+    display: flex;
+    margin-top: 10px;
+}
+
+.container_formation h3{
+    margin-top: 10px;
+}
+
+.container_formation .dotbar{
+    background-size: contain;
+    background-color: #0052bd;
+    width: 5px;
+    height: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.container_formation .dot{
+    min-width: 10px;
+    min-height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.container_formation .dot:first-child{
+    position: absolute;
+    right: -2.2px;
+    top: -1px;
+}
+
+.container_formation .dot:last-child{
+    position: absolute;
+    right: -2.2px;
+    bottom: 110px;
+}
+
+.container_formation ul{
+    margin-left: 10px;
+}
+
+.container_formation ul li{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.container_formation li span{
+    text-transform: capitalize;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    gap: 2px;
+    letter-spacing: 1.3px;
+}
+
+.container_formation ul li ul li{
+    color: grey;
+    letter-spacing: 1.3px;
+}
+
+.container_formation ul li ul li:first-letter{
+    text-transform: capitalize;
+}

@@ -1,0 +1,76 @@
+.experience{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.experience .container_list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.container_list h3{
+    margin-top: 10px;
+}
+
+.container_list .dotbar{
+    background-size: contain;
+    background-color: #0052bd;
+    width: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 15px;
+}
+
+.container_list .dot{
+    min-width: 10px;
+    min-height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.container_list .dot:first-child{
+    position: absolute;
+    right: -2.2px;
+    top: -1px;
+}
+
+.container_list .dot:last-child{
+    position: absolute;
+    right: -2.2px;
+    bottom: 97px;
+}
+
+.container_list .dot:nth-child(2){
+    position: absolute;
+    right: -2.2px;
+    bottom: 200px;
+}
+
+.container_list .list_experience{
+    margin-left: 10px;
+}
+
+.container_list .list_experience li{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.container_list li span{
+    text-transform: capitalize;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    gap: 2px;
+    letter-spacing: 1.3px;
+}
+
+.container_list ul li ul li{
+    color: grey;
+    letter-spacing: 1.3px;
+}
+
+.container_list ul li ul li:first-letter{
+    text-transform: capitalize;
+}

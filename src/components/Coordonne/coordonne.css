@@ -1,0 +1,25 @@
+.coordonne{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.coordonne .infos{
+    width: fit-content;
+    flex-wrap: nowrap;
+    margin-top: 23px;
+}
+
+.coordonne a{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+    color: #000;
+}
+
+.coordonne a span{
+    color: #017932;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}

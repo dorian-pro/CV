@@ -1,0 +1,29 @@
+.loisir{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.loisir ul{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.loisir ul li{
+    color: grey;
+}
+
+.loisir ul li span{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+.loisir ul li:nth-child(-n +1)::after{
+    content: "|";
+}
+
+.loisir ul li:nth-child(2n -2)::after{
+    content: "|";
+}

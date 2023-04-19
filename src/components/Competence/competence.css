@@ -1,0 +1,37 @@
+.competence{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.list_competence{
+    margin: 10px;
+}
+
+.list_competence li h3{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+}
+
+.list_competence li ul{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.list_competence li ul li{
+    padding: 5px;
+    height: min-content;
+    letter-spacing: 1.3px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.list_competence li ul li:not(.list_competence li ul li:last-child):after{
+    content: ",";
+    color: grey;
+    font-weight: bold;
+    margin-left: 2px;
+}
