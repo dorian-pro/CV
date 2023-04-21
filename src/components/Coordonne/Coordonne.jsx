@@ -10,11 +10,9 @@ class Coordonne extends Component {
                     <div className="infos">
                         {CoordonneData.map((item, index) => {
                             return (
-                                <>
                                     <div className={item.class} key={index}>
                                         <a href={item.href} target="_blank"><span>{item.icon}</span> {item.info}</a>
                                     </div>
-                                </>
                             )
                         })}
                     </div>
